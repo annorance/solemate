@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solemate | Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <div class = "logo"><a href="#"><img src="logo solemate.png" width = 100px height = 20px></a></div>
+
+        <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="mensection.html">Men</a> 
+                <a href="womensection.html">Women</a>
+        </nav>
+
+        <div class="search"> <!-- search bar nya masih ada outline box nya -->
+            <form action="#">
+                <input type="text"
+                       placeholder=" Search ..."
+                       name="search">
+                <button>
+                    <i class="fa fa-search"
+                       style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+
+        <div class="icons">
+            <a href="productregist.html" class="fa fa-plus"></a>
+            <a href="tescart.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="wrapper1">
+            <form action="">
+                <h1>Profile</h1>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" value="Kim Taehyung" readonly>
+                        <i class='bx bxs-user'></i>
+                    </div>
+    
+                    <div class="input-field">
+                        <input type="email" value="thv@gmail.com" readonly>
+                        <i class='bx bxs-envelope' ></i>
+                    </div>
+                </div>
+    
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="number" value="081234567891" readonly>
+                        <i class='bx bxs-phone' ></i>
+                    </div>
+    
+                    <div class="input-field">
+                        <input type="text" value="worldwidehandsome" readonly>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" value="Babakan Tengah" readonly>
+                        <i class='bx bxs-home'></i>
+                    </div>
+                </div>
+    
+                <div class="button">
+                    <button type="submit" class="btn">Edit Profile</button>
+                    <button type="submit" class="btn">Log Out</button>
+                    <button type="submit" class="btn">Delete Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="wrapper2">
+            <h1>My Product</h1>
+            <div class="slider snaps-inline">
+                <!-- <div class="media-element">
+                    <div class="name">
+                        <p>Gucci Madame Leather Knee-high Platform Boots</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 1.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-quantity" value="50" min="0">
+                    </div>
+
+                    <div class="name">
+                        <p>S.W.S 'Lover' Shoes</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 7.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-quantity" value="20" min="0">
+                    </div>
+                </div> -->
+
+                <!-- <div class="media-element">
+                    <div class="name">
+                        <p>S.W.S 'Lover' Shoes</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 7.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-quantity" value="20" min="0">
+                    </div>
+                </div> -->
+
+                <div class="group">
+                    <div class="name">
+                        <p>Gucci Madame Leather Knee-high Platform Boots</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 1.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-size" value="50" min="0">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <p>S.W.S 'Lover' Shoes</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 7.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-size" value="20" min="0">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <p>Dawson Bone Pebble Pointed-Toe Mid Calf Boots</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 3.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-size" value="20" min="0">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <p>Converse Chuck 70 Hi</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 10.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-size" value="35" min="0">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <p>Sam Edelman Kia Heeled Sandal</p>
+                    </div>
+                    <div class="image">
+                        <img src="shoes 17.png" width = 277.5px height = 277.5px>
+                    </div>
+                    <div class="quantity">
+                        <input type="number" name="product-size" value="25" min="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
